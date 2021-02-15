@@ -60,3 +60,20 @@
     font-size: 4rem;
     line-height: 1.1;
   }
+
+  button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    background: #f5cd03;
+    color: #0c0d0d;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  .column-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+  }
