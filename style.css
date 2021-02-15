@@ -39,3 +39,24 @@
     height: 95vh;
     padding: 3rem calc((100vw - 1300px) / 2);
   }
+
+  .column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding: 0rem 2rem;
+  }
+  
+  .column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-style: italic;
+  }
+  
+  .column-left p {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    line-height: 1.1;
+  }
