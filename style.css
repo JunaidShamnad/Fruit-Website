@@ -17,4 +17,25 @@
     align-items: center;
   }
 
+  .one {
+    background: #0c0d0d;
+  }
   
+  .two {
+    background: #9ade6e;
+  }
+  
+  .three {
+    background: #fa7968;
+  }
+  
+  .four {
+    background: #2cbde4;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((100vw - 1300px) / 2);
+  }
